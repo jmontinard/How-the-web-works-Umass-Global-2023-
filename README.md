@@ -1,18 +1,22 @@
 # How-the-web-works-Umass-Global-2023-
 How the web works Umass Global 2023 - jmontinard
-What is HTTP? // HTTP is Hypertext transfer protocol HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser.
-What is a URL? Uniform Resource Locator - A URL is nothing more than the address of a given unique resource on the Web. In theory, each valid URL points to a unique resource. Such resources can be an HTML page, a CSS document, an image, etc.
-What is DNS? -The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
-What is a query string? - A query string is the portion of a URL where data is passed to a web application and/or back-end database. The reason we need query strings is that the HTTP protocol is stateless by design. (for example, www.techopedia.com/somefile.html), and the query string is whatever follows the question mark sign (“?”).
-What are two HTTP verbs and how are they different? - HTTPS is encrypted and secured using digital certificates, while HTML is not. When you visit a website using HTTPS, your connection to that site is encrypted.
-What is an HTTP request? -An HTTP request is made by a client, to a named host, which is located on a server.
-What is an HTTP response? -An HTTP response is made by a server to a client. The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request.
-What is an HTTP header? Give a couple examples of request and response headers you have seen. - An HTTP header is a field of an HTTP request or response that passes additional context and metadata about the request or response.
+1- What is HTTP? // HTTP is Hypertext transfer protocol HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser.
+
+2- What is a URL? Uniform Resource Locator - A URL is nothing more than the address of a given unique resource on the Web. In theory, each valid URL points to a unique resource. Such resources can be an HTML page, a CSS document, an image, etc.
+
+3- What is DNS? -The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
+
+4- What is a query string? - A query string is the portion of a URL where data is passed to a web application and/or back-end database. The reason we need query strings is that the HTTP protocol is stateless by design. (for example, www.techopedia.com/somefile.html), and the query string is whatever follows the question mark sign (“?”).
+5- What are two HTTP verbs and how are they different? - HTTPS is encrypted and secured using digital certificates, while HTML is not. When you visit a website using HTTPS, your connection to that site is encrypted.
+6- What is an HTTP request? -An HTTP request is made by a client, to a named host, which is located on a server.
+7- What is an HTTP response? -An HTTP response is made by a server to a client. The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request.
+8- What is an HTTP header? Give a couple examples of request and response headers you have seen. - An HTTP header is a field of an HTTP request or response that passes additional context and metadata about the request or response.
 Headers provide additional information about the request or the response. Here are some examples:
 Request
 headers: Host, User-Agent, Accept, Cookie, Cache-Control
 Response headers: Content-Type, Last-Modified, Set-Cookie, Cache-Control
-What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+9- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
 
 Step 1: IP Address Lookup - The first thing that needs to happen is your browser needs to get the IP address of the server hosting the web resource you’re trying to access. Giving your browser a URL or a domain name doesn’t actually give it enough information to know where to reach a web server.
 Step 2: Initial connection to the server - Once your browser knows where the web server is, it can establish a connection to it. The first layer of connection it needs to establish uses a protocol called Transmission Control Protocol, or TCP This is one of the basic protocols on the internet.
